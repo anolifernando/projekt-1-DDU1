@@ -109,7 +109,7 @@ main {
   max-width: 490px;
 }
 
-/*NY DIV I MAIN - COMAPNY LOGGOR*/
+/*COMAPNY LOGGOR - NY DIV I MAIN*/
 
 #company-logos {
   display: flex;
@@ -127,7 +127,7 @@ main {
   height: 25px;
 }
 
-/*NY DIV I MAIN - INFORMATION OM DOG*/
+/*INFORMATION OM DOG - NY DIV I MAIN*/
 
 .information {
   max-width: 450px;
@@ -186,7 +186,7 @@ main {
   border-bottom: 1px solid #e5e5e5;
 }
 
-/*NY DIV I MAIN*/
+/*FREE-PLAN - NY DIV I MAIN*/
 
 #free-plan {
   max-width: 600px;
@@ -217,7 +217,7 @@ main {
   border-radius: 5px;
 }
 
-.free-start-rutor {
+.free-start-box {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -237,7 +237,7 @@ main {
   height: 15px;
 }
 
-/* NY DIV I MAIN*/
+/* TEAM - NY DIV I MAIN*/
 
 #team {
   margin-top: 100px;
@@ -290,7 +290,7 @@ main {
   color: #087fe7;
 }
 
-/*NY DIV I MAIN*/
+/*WHY DOGS LOVE US - NY DIV I MAIN*/
 
 #why-dogs-love-us {
   text-align: center;
@@ -436,7 +436,7 @@ p {
   font-size: 15px;
 }
 
-/* Nedanstående är anpassat till mobil*/
+/* NEDANSTÅENDE ÄR ANPASSAT TILL MOBIL*/
 
 @media (max-width: 600px) {
   header {
