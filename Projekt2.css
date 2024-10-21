@@ -8,6 +8,11 @@ body {
   font-family: Inter;
 }
 
+#linje {
+  height: 15px;
+  border-right: 1px solid #e5e5e5;
+}
+
 /* HEADER (MENY FÄLT)*/
 header {
   display: flex;
@@ -79,11 +84,6 @@ header {
 #hamburger {
   display: none;
   width: 20px;
-}
-
-#line {
-  height: 15px;
-  border-right: 1px solid #e5e5e5;
 }
 
 /*MAIN*/
