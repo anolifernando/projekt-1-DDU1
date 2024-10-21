@@ -327,13 +327,13 @@ main {
   text-align: center;
 }
 
+#procent-border {
+  border-left: none;
+}
+
 .procent-1 {
   padding: 0px 60px;
   border-left: 1px solid #e5e5e5;
-}
-
-#procent-border {
-  border-left: none;
 }
 
 .procent-1 h1 {
