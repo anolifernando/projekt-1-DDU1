@@ -8,11 +8,6 @@ body {
   font-family: Inter;
 }
 
-#linje {
-  height: 15px;
-  border-right: 1px solid #e5e5e5;
-}
-
 /* HEADER (MENY FÄLT)*/
 header {
   display: flex;
@@ -29,6 +24,11 @@ header {
 #brand-img {
   height: 20px;
   padding: 10px 0;
+}
+
+#linje {
+  height: 15px;
+  border-right: 1px solid #e5e5e5;
 }
 
 #container {
@@ -66,9 +66,9 @@ header {
   border-radius: 5px;
 }
 
-.svart-knapp {
+.svart-knapp a {
   background-color: #121212;
-  color: #f4f4f4 !important;
+  color: #f4f4f4;
   text-decoration: none;
 
   padding: 5px 10px;
@@ -290,9 +290,9 @@ main {
   color: #087fe7;
 }
 
-/*WHY DOGS LOVE US - NY DIV I MAIN*/
+/*WHY DOGS LOVE US - NY DIV I TEAM*/
 
-#why-dogs-love-us {
+#See-why-dogs-love-us {
   text-align: center;
   font-size: 36px;
   font-weight: 650;
