@@ -111,6 +111,10 @@ main {
 
 /*COMAPNY LOGGOR - NY DIV I MAIN*/
 
+#company-logos img {
+  height: 25px;
+}
+
 #company-logos {
   display: flex;
   flex-wrap: wrap;
@@ -121,10 +125,6 @@ main {
   padding: 30px;
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
-}
-
-#company-logos img {
-  height: 25px;
 }
 
 /*INFORMATION OM DOG - NY DIV I MAIN*/
@@ -195,26 +195,26 @@ main {
   padding-top: 30px;
 }
 
-#start-free h2 {
-  margin-bottom: 0;
-  font-size: 36px;
-}
-
 #start-free {
   text-align: center;
   margin-bottom: 60px;
 }
 
-#free-start {
-  background-color: #f4f4f4;
-  padding: 15px 25px;
-  border-radius: 5px;
+#start-free h2 {
+  margin-bottom: 0;
+  font-size: 36px;
 }
 
 #start-free p {
   font-weight: 320;
   padding: 0px 30px;
   margin-bottom: 20px;
+}
+
+#free-start {
+  background-color: #f4f4f4;
+  padding: 15px 25px;
+  border-radius: 5px;
 }
 
 .free-start-box {
