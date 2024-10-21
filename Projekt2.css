@@ -109,7 +109,7 @@ main {
   max-width: 490px;
 }
 
-/*NY DIV I MAIN*/
+/*NY DIV I MAIN - COMAPNY LOGGOR*/
 
 #company-logos {
   display: flex;
@@ -127,7 +127,7 @@ main {
   height: 25px;
 }
 
-/*NY DIV I MAIN*/
+/*NY DIV I MAIN - INFORMATION OM DOG*/
 
 .information {
   max-width: 450px;
