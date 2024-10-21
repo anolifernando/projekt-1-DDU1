@@ -8,6 +8,17 @@ body {
   font-family: Inter;
 }
 
+h1,
+h2 {
+  color: #050505;
+  font-size: 45px;
+}
+
+p {
+  color: #666666;
+  font-size: 15px;
+}
+
 /* HEADER (MENY FÄLT)*/
 header {
   display: flex;
@@ -320,6 +331,8 @@ main {
   max-width: 500px;
 }
 
+/* PROCENTEN*/
+
 #procent {
   display: flex;
   justify-content: center;
@@ -361,12 +374,14 @@ main {
   color: #7f7f7f;
 }
 
-/*FOOTER - inte en del av DIV-MAIN */
+/*FOOTER - inte en del av MAIN */
 
-#footer {
+footer {
   border-top: 1px solid #e5e5e5;
   margin: auto 10px;
+}
 
+#footer {
   margin: 0 auto;
   max-width: 1200px;
 
@@ -380,22 +395,24 @@ main {
   flex-basis: 250px;
 }
 
+#footer #barker {
+  height: 25px;
+  margin-top: 10px;
+  margin-left: 0;
+}
+
 #footer img {
   height: 20px;
   padding: 0px 1px;
   margin-top: 20px;
 }
 
-#footer #bild1 {
-  height: 25px;
-  margin-top: 10px;
-  margin-left: 0;
-}
-
 #footer1 p {
   font-size: 12px;
   color: #050505;
 }
+
+/*NY DIV I FOOTER*/
 
 #footer2 {
   display: flex;
@@ -423,17 +440,6 @@ main {
 #f3 a:hover,
 #f4 a:hover {
   text-decoration: underline;
-}
-
-h1,
-h2 {
-  color: #050505;
-  font-size: 45px;
-}
-
-p {
-  color: #666666;
-  font-size: 15px;
 }
 
 /* NEDANSTÅENDE ÄR ANPASSAT TILL MOBIL*/
